@@ -1,8 +1,8 @@
 'use strict';
 
-import { CommentView } from './view/comment.js';
-import { ContactView } from './view/contact.js';
-import { ThxView } from './view/thx.js';
+import { CommentView } from './view/comment/comment.js';
+import { ContactView } from './view/contact/contact.js';
+import { ThxView } from './view/thx/thx.js';
 import { Router } from './libs/router.js';
 
 function main() {

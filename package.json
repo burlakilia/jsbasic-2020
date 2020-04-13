@@ -5,7 +5,8 @@
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "static-server"
+    "start": "static-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,17 @@
     "url": "https://github.com/burlakilia/jsbasic-2020/issues"
   },
   "homepage": "https://github.com/burlakilia/jsbasic-2020#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "static-server": "^2.2.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
   "dependencies": {
-    "static-server": "^2.2.1"
+    "babel-preset-env": "^1.7.0"
   }
 }
